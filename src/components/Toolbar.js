@@ -2,7 +2,7 @@ import React from 'react';
 import './Toolbar.css';
 import Button from './Button';
 
-function Toolbar({ theme }) {
+function Toolbar() {
     return (
 
         <div className="topnav">
@@ -10,7 +10,7 @@ function Toolbar({ theme }) {
             <a href="#about">About</a>
             <a href="#contact">Contact</a>
             <div className="right-container">
-                <Button theme={theme}>Register</Button>
+                <Button>Register</Button>
             </div>
         </div>
     )
