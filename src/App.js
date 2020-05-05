@@ -1,12 +1,14 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './App.css';
 import Toolbar from './components/Toolbar';
+import { ThemeContext } from './context/ThemeContext';
 
 function App() {
-  const [theme, setTheme] = useState('light');
   return (
     <div className="App">
-      <Toolbar theme={theme} />
+      <ThemeContext.Provider value="light">
+        <Toolbar />
+      </ThemeContext.Provider>
     </div>
   );
 }
