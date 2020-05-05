@@ -1,0 +1,26 @@
+.red {
+  background-color: rgb(133, 75, 75);
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+  margin: auto;
+  margin-top: 10%;
+}
+
+.green {
+  background-color: rgb(75, 133, 75);
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  margin-top: 25%;
+  overflow: hidden;
+}
+
+.blue {
+  background-color: rgb(75, 75, 133);
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  margin-top: 25%;
+  overflow: hidden;
+}
